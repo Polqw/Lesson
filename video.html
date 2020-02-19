@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="p5.min.js"></script>
+    <script src="p5.gui.js"></script>
+    <script src="quicksettings.js"></script>
+    <script src="p5.dom.js"></script>
+  </head>
+  <body>
+    <script>
+      var capture;
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+      function setup() {
+        var canvas = createCanvas(0.8 * w, 0.7 * h);
+        capture = creatCapture(VIDEO);
+        capture.size = (320, 240);
+      }
+    </script>
+  </body>
+</html>
