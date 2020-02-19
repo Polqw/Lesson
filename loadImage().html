@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="p5.min.js"></script>
+    <script src="p5.gui.js"></script>
+    <script src="quicksettings.js"></script>
+    <script src="p5.dom.js"></script>
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <script>
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+      let img;
+      function preload() {
+        img = loadImage("Nice.jpeg");
+      }
+      function setup() {
+        createCanvas(w, h);
+        image(img, 0, 0, 1000, 1000);
+      }
+      //uses images, sound to preload them to begin, helps to load quicker//
+      //needs live server//
+      
+      
+      
+      
+
+    </script>
+  </body>
+</html>
